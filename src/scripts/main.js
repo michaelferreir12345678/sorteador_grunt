@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(){
-    document.getElementById('form-sorteador').addEventListener('submit', function(e){
-        e.preventDefault();
+    document.getElementById('form-sorteador').addEventListener('submit', function(event){
+        event.preventDefault();
 
         let numeroMaximo = document.getElementById('numero-maximo').value;
         numeroMaximo = parseInt(numeroMaximo);
